@@ -6,7 +6,6 @@ export default defineConfig({
   base: "/profile/",
   build: {
     outDir: "docs",
-    assetsDir: "assets",
   },
   plugins: [react()],
 });
